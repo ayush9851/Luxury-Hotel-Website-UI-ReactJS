@@ -34,3 +34,5 @@ This project was developed to practice frontend development concepts using React
 
 ## ⚙️ How to Run the Project
 1. Clone the repository:
+2. Install Dependencies
+3. Start the application
