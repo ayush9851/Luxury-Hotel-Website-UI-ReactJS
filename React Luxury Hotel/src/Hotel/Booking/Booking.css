@@ -1,0 +1,85 @@
+.bookimg {
+    height: 700px;
+    width: 1535px;
+    margin-left: 0px;
+    margin-top: -80px;
+}
+
+
+.bookingpage-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    margin-top: -630px;
+
+}
+
+.bookingpage-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.bookingpage-content p {
+    opacity: 0.9;
+    margin-bottom: 35px;
+}
+
+.bookingpage-card {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 35px;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7);
+}
+
+.bookingpage-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.bookingpage-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.bookingpage-field.full {
+    flex: 1;
+}
+
+.bookingpage-field label {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+.bookingpage-field input,
+.bookingpage-field select {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #111;
+    color: #fff;
+}
+
+.bookingpage-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 14px;
+    background: linear-gradient(135deg, #d4af37, #b8962e);
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.bookingpage-btn:hover {
+    background: linear-gradient(135deg, #caa234, #a88427);
+}
